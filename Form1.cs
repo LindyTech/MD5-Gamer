@@ -533,7 +533,7 @@ namespace MD5_Pro_Gramer
                         //if comparison to check for a matching md5 hash
                         if (file.MD5Hash == gf.MD5Hash)
                         {
-                            MessageBox.Show("Match!");
+                            //MessageBox.Show("Match!");
                             file.Match = "Yes";
                             objectListView1.RefreshObject(file);
                         }
